@@ -28,3 +28,14 @@ def solveit():
             s += n
         i += 1
     print(s)
+    
+def neater():
+    s = 0
+    i = 1
+    j = 1
+    while j < 4000000:
+        if j % 2 == 0:
+            s += j
+        j = fib(i)
+        i += 1
+    print(s)

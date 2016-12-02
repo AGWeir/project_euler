@@ -16,3 +16,13 @@ def mult5(n):
 
 def mult3(n):
     return True if n % 3 == 0 else False
+
+#This is better because if it's a multiple of 3 it doesn't need to evaluate mult5
+def euler1better(n):
+    s = 0
+    for i in range(n):
+        if i % 3 == 0:
+            s += i
+        elif i % 5 == 0:
+            s += i
+    return s

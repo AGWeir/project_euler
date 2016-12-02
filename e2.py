@@ -20,7 +20,7 @@ def solveit():
     s = 0
     i = 1
     stop = True
-    while stop==True:
+    while stop:
         n = fib(i)
         if n > 4000000:
             stop = False

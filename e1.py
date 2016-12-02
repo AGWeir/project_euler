@@ -12,7 +12,7 @@ def euler1(n):
     return s
     
 def mult5(n):
-  return True if n % 5 == 0 else False
+    return True if n % 5 == 0 else False
 
 def mult3(n):
-  return True if n % 3 == 0 else False
+    return True if n % 3 == 0 else False

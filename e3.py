@@ -10,7 +10,7 @@ def isprime(n):
     if n <= 1:
         return False
     elif n <= 3:
-        return a
+        return True
     elif n % 2 == 0 or n % 3 == 0:
         return False
     else:
